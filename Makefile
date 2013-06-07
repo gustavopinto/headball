@@ -2,7 +2,6 @@ clean:
 	@find . -name "*.pyc" -delete
 	@find . -name "*~" -delete
 
-	
-run: clean
+run:    clean
 	@python headball.py
 	
