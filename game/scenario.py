@@ -14,7 +14,6 @@ class Scenario:
 		self.face = FaceDetector()
 		self.coordinates = (1,1)
 
-
 	def load_object(self):
 		from objects import GameObject
 		icon = pygame.image.load('images/ball.gif')
